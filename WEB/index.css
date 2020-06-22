@@ -1,0 +1,72 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+	background: #EEEE;
+	text-decoration: none;
+	color: #
+	}  
+
+/*font-family: 'Montserrat', sans-serif;*/
+/*font-family: 'Roboto', sans-serif;*/
+
+
+
+
+
+.nav-wrapper { 
+	padding-top: 92px; /*отступ сверху*/
+	width: 1440px; /*ширина контейнера*/
+	background-color: #B9E3F1;
+	margin-left: auto;
+	margin-right: auto;
+
+
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	margin-bottom: 220px;
+
+}
+
+.nav {
+
+}
+
+.nav__item {
+color: #aaaaaa;
+font-size: 15px;
+font-weight: 500;
+text-transform: uppercase;
+letter-spacing: 0.3px;
+margin-right: 55px; /*ширина между пунктами меню*/
+text-decoration: none;
+
+a:last-child {
+	margin-right: 0;
+}
+
+
+
+
+a:hover {
+color: black;
+
+   }
+
+
+}
+
+.header-wrapper {
+	width: 1440px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header-title {
+font-family: 'Roboto', sans-serif;
+font-size: 70px;
+font-weight: 400;
+line-height: 1.4;
+letter-spacing: 0.57px;
+}
